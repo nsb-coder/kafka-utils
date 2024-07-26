@@ -8,7 +8,7 @@ from typing import Any, Dict, Iterable, Tuple, Union
 
 import orjson
 from confluent_kafka import Producer
-from src.kafka.utils import chunks
+from .utils import chunks
 
 log = logging.getLogger(__name__)
 
