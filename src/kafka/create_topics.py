@@ -1,6 +1,7 @@
 import logging
 import os
 from typing import List
+
 from confluent_kafka.admin import AdminClient, NewTopic
 
 log = logging.getLogger(__name__)
